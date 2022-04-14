@@ -12,17 +12,17 @@ html, body {
 
 @font-face {
     font-family: BoschBold;
-    src: url(/fonts/BoschOfficeSans-Bold_V2_45.ttf);
+    src: url(fonts/BoschOfficeSans-Bold_V2_45.ttf);
   }
 
   @font-face {
     font-family: BoschRegular;
-    src: url(/fonts/BoschOfficeSans-Regular_V2_45.ttf);
+    src: url(fonts/BoschOfficeSans-Regular_V2_45.ttf);
   }
 
   @font-face {
     font-family: BoschLight;
-    src: url(/fonts/BoschSans-Light.otf);
+    src: url(fonts/BoschSans-Light.otf);
   }
 
 a{
