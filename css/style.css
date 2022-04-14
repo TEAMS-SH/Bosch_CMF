@@ -111,78 +111,13 @@ h1{
 }
 
 h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.8em;
+    font-family: 'BoschRegular', sans-serif;
+    font-size: 1rem;
     font-weight: 400;
-    color: rgba(255,255,255,0.6);
-    letter-spacing: 0.5px;
+    color: rgba(255,255,255,0.8);
+    letter-spacing: 0.1px;
 }
-h3{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2em;
-    font-weight: 300;
-    letter-spacing: 2px;
-    color: #fff;
-    opacity: 0.5;
-    padding: 0;
-}
-h4{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    font-weight: 500;
-    letter-spacing: 1px;
-    color: #fff;
-}
-h5{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.4em;
-    font-weight: 100;
-    letter-spacing: 2px;
-    color:rgba(255,255,255,1);
-    display: inline;
-}
-h6{
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.9em;
-    font-weight: 100;
-    letter-spacing: 1px;
-    color:rgba(255,255,255,0.8);
-    line-height: 0px;
-    margin-top: 20px;
-}
-    h7{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color:rgba(255,255,255,0.3);
-    display: inline;
-     
-}
-    h8{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color:rgba(255,255,255,1);
-    display: inline;
-    
-        
-}
-h9{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.8em;
-    font-weight: 700;
-    color: rgba(255,255,255,0.9);
-    letter-spacing: 1px;
-}
-h10{display: block;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.4em;
-    font-weight: 100;
-    color: rgba(255,255,255,0.7);
-    letter-spacing: 1px;
-}
+
 a{
     font-family: 'Open Sans', sans-serif;
     text-decoration: none
@@ -501,9 +436,16 @@ position: absolute;
        transition: all 1s ease-out;
     -webkit-transition: all 1s ease-out;
     overflow: hidden;
-    backdrop-filter: blur(5px);
+    padding: 2rem;
+    font-family: 'BoschRegular';
 }
 
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .cmfthmb, .cmfthmb2, .cmfthmb3, .cmfthmb4, .cmfthmb5 {
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+    }
+  }
 
 
 .cmftitle, .cmftitle2, .cmftitle3, .cmftitle4,
