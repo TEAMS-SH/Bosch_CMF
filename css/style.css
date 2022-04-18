@@ -116,6 +116,7 @@ h2{
     font-weight: 400;
     color: rgba(255,255,255,0.8);
     letter-spacing: 0.1px;
+    line-height: 1.3rem;
 }
 
 a{
@@ -678,6 +679,7 @@ h2{
     font-weight: 400;
     color: rgba(255,255,255,0.95);
     letter-spacing: 0.5px;
+    
 }
     h5{
     font-family: 'Poppins', sans-serif;
