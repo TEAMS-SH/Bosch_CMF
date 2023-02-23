@@ -430,7 +430,7 @@ position: absolute;
 
 .cmfthmb, .cmfthmb2, .cmfthmb3, .cmfthmb4, .cmfthmb5{
     grid-column: 2 / 10;
-    grid-row: 4 / 10;
+    grid-row: 5 / 10;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), 10px 15px 40px rgba(0,0,0,.6);
     opacity: 0.2;
     transform: scale(0.75);
